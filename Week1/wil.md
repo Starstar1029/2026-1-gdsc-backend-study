@@ -54,3 +54,38 @@
 
 ## 2. 실행화면 스크린샷
 ![localhost:8080 접속 화면](./error.png)
+
+## 3. 온라인 쇼핑몰 프로젝트 API 명세서
+### 상품기능
+- 1. 상품 정보 등록 
+    - HTTP Method : POST
+    - URI : /products
+- 2. 상품 목록 조회
+    - HTTP Method : GET
+    - URI : /products
+- 3. 개별 상품 정보 상세 조회
+    - HTTP Method : GET
+    - URI : /products/{productId}
+- 4. 상품 정보 수정
+    - HTTP Method : PATCH
+    - URI : /products/{productId}
+- 5. 상품 삭제
+    - HTTP Method : DELETE
+    - URI : /products/{productId}
+
+### 주문 기능
+- 1. 주문 정보 생성
+    - HTTP Method : POST
+    - URI : /orders
+- 2. 주문 목록 조회
+    - HTTP Method : GET
+    - URI : /orders
+- 3. 개별 주문 정보 상세 조회
+    - HTTP Method : GET
+    - URI : /orders/{orderId}
+- 4. 주문 취소
+    - HTTP Method : PATCH
+    - URI : /orders/{orderId}
+
+## 느낀점
+- 3학년이 되어서야 뒤늦게 뭐라도 해야겠다는 생각에 동아리 가입을 했다. 기본적인 환경 구축조차 어렵게 느껴져 AI의 도움을 많이 받았다. 그렇다고 하기 싫다는 느낌은 받지 않아서 다행이라는 생각을 했다. 그동안 github의 중요성을 듣기만 했지 실질적으로 한게 아무것도 없었는데 첫 잔디를 심으니 무언가가 내 안에서 탁 하고 켜지는 듯했다. 앞으로 더 열심히 해야겠다. 1년 뒤, 뒤를 돌아봤을 때 뿌듯함을 느끼고 싶다.
